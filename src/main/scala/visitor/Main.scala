@@ -5,6 +5,7 @@ import expr.operators.{Add, Multiply}
 import expr.values.{Integer, Real}
 import expr.Variable
 
+
 /** The `Main` object is the entry point for the application.
  * It defines some mathematical expressions, prints them, and then calculates and prints their
  * derivatives with respect to a specified variable.
