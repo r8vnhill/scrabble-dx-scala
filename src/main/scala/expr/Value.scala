@@ -9,4 +9,10 @@ trait Value {
   def addToInt(that: Integer): Value
 
   def addToReal(that: Real): Value
+
+  def multiply(that: Value): Value
+
+  def multiplyByInt(that: Integer): Value
+
+  def multiplyByReal(that: Real): Value
 }
